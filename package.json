@@ -1,19 +1,15 @@
 {
-  "name": "p0h4y",
-  "version": "1.0.0",
-  "description": "NodeJS as Restful API",
-  "main": "server.js",
-  "scripts": {
-    "start": "nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Shayne Nguyen",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2"
-  },
-  "devDependencies": {
-    "nodemon": "^1.12.7"
-  }
+    "name": "p0h4y",
+    "version": "1.0.0",
+    "description": "NodeJS as Restful API",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Shayne Nguyen",
+    "license": "ISC",
+    "dependencies": {
+        "bootstrap-material-design": "^4.1.1"
+    }
 }

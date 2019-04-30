@@ -1,0 +1,7 @@
+<!-- -- "Child Template" -->
+{% extends "base.html" %} {% block title %} Index Page {% endblock %} {% block head %} {{ super() }} {% endblock %}
+<!-- Child Content -->
+{% block content %}
+<h1>Hello World</h1>
+<p>Welcome to my site.</p>
+{% endblock %}
