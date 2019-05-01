@@ -1,0 +1,27 @@
+{% extends './base.html' %}
+<!-- Dataset Content -->
+{% block content %}
+<h2>Dataset Content Go Here</h2>
+<!-- Start For-loop in batch fillter of 3-->
+{% for post_row in posts | batch(3, '&nbsp;') %}
+<div class="row">
+    {% for post in post_row %}
+    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="card bg-light mb-3">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-header">Header -- {{ post.tweetid }}</div>
+            <div class="card-body">
+                <h4 class="card-title">{{ post.url }}</h4>
+                <h6 class="card-text">{{ post.date }}</h6>
+                <p class="card-text">{{ post.title }}</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<!-- End For-loop -->
+{% endfor %}
+
+<!-- End of "Content" block -->
+{% endblock %}

@@ -7,62 +7,36 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Material Design for Bootstrap fonts and icons -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-
-    <!-- Material Design for Bootstrap CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <!-- Embedded stylesheets -->
+    {% include './components/styles.html' %}
 
     <title>{% block title %}{% endblock %}</title>
-
     {% endblock %}
 </head>
 
 <body>
-    <nav class="navbar navbar-dark sticky-top bg-dark fixed-top flex-md-nowrap p-0">
-        <a class="navbar-brand" href="#">Shayne</a>
-        <div id="navbarCollapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <!-- Include Header -->
+    {% include './components/header.html' %}
+    <!-- Content goes here -->
     <div class="container-fluid">
-        <!-- Content here -->
-        {% block body %}
-        <nav class="col-md-1 d-none d-md-block bg-light pt-4 sidebar">
-            {% block sidebar %}{% endblock %}
-        </nav>
-        <main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-            {% block content %}{% endblock %}
-        </main>
-        {% endblock %}
+        <div class="row flex-xl-nowrap">
+            {% block body %}
+            <div class="col-12 col-md-3 col-xl-2 bd-sidebar .bg-primary text-white">
+                <nav class="col-md-1 text-white bg-primary d-none d-md-block pt-4 sidebar">
+                    {% include './components/left_bar.html' %}
+                </nav>
+            </div>
+            <main class="col-12 col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                {% block content %}{% endblock %}
+            </main>
+            {% endblock %}
+        </div>
     </div>
+    <!-- Embedded scripts  -->
+    {% include './components/scripts.html' %}
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    {% block script %}
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $('body').bootstrapMaterialDesign();
-        });
-    </script>
-    {% endblock %}
-    <div id="footer">
-        {% block footer%} &copy; Copyright 2019 by <a href="#">Me.</a>. {% endblock %}
-    </div>
+    <!-- Include Footer -->
+    {% include './components/footer.html' %}
 </body>
 
 </html>

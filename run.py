@@ -1,15 +1,27 @@
-from flask import Flask
+from flask import Flask, render_template
+import json
+
 app = Flask(__name__)
+
+# Read json file
+with open('./testData/posts.json', 'r') as f:
+    postjson = json.load(f)
 
 @app.route("/")
 def hello():
-    return "<h1>Hello World!</h1>"
+    return render_template('index.html',title='Welcome to Index')
 
 @app.route("/about")
 def about():
-    return "<h1>About Me.</h1>"
+    return render_template('./homeland/about.html', title='About')
+
+
+@app.route("/dataset")
+def dataset():
+    return render_template('./webapp/dataset.html',posts=postjson)
 
 
 if __name__ == '__main__':
     # Run Debug mode without using env
+
     app.run(debug=True)
