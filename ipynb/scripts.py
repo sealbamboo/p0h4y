@@ -1,6 +1,6 @@
 import re
 
-# Merge column 2 & 3
+# Merge list of string into a long text.
 def join_txt(list_txt):
     # Join list of content into 1 simple paragraph
     seperator = ', '
@@ -9,7 +9,6 @@ def join_txt(list_txt):
 
 # Split Url out of content
 def get_url(regex, sample):
-    print(re.search(regex,sample))
     result = re.search(regex, sample)
 
     if result:
@@ -24,6 +23,20 @@ def split_txt_form_url(regex, sample):
     result = sample.strip(url)
     
     return result
+
+# Get hastags out of string.
+def get_hastags_out(regex, sample):
+
+    # Find all possible hastags
+    result = re.findall(regex,sample)
+
+    return result
+
+# Strip "#" within string
+def stript_hastags(sample):
+    return sample.replace("#",'')
+
+
 
 # Scrapt content base on xpath command.
 def scrapt_w_xpath(xpath_cmd):
