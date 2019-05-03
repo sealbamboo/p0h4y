@@ -1,0 +1,75 @@
+import pandas as pd
+import numpy as np
+
+from bs4 import BeautifulSoup
+from scrapy.selector import Selector
+
+import re, requests, csv
+import lxml
+
+# Regex
+regex_url = r"(http(s?):\/\/(www)?[A-Za-z0-9-?\/\.]+)"
+regex_hastags = r"(#[A-Za-z0-9]{2,})"
+
+# File url
+file_url = '../datasets/foxnewshealth.txt'
+
+# Basic list
+csv_header = ['tweetid','date','title']
+frame_header = ['tweetid','date','title','what']
+
+# Support scripts
+%run -i scripts.py
+
+
+# -------------------------------------------------
+frame = pd.read_table(file_url, sep='|', header= None, names = csv_header, encoding="utf-8")
+frame.head()
+
+
+# -------------------------------------------------
+frame.shape
+
+
+# -------------------------------------------------
+frame.loc[:,'title'][0]
+
+
+# -------------------------------------------------
+# Split Url & Text
+frame['url'] = frame['title'].map(lambda row: get_url(regex_url, row))
+frame['title'] = frame['title'].map(split_txt_form_url)
+
+
+# -------------------------------------------------
+frame.head()
+
+
+
+# -------------------------------------------------
+frame.loc[:,'title'][0]
+
+
+# -------------------------------------------------
+# Xpath issues
+list_scrapt = ['//div[@class="article-body"]/p/text()',
+               '',
+               '//*[@id="post-22962"]/header/div[2]/p/span/a/strong/text()'
+               ]
+
+# -------------------------------------------------
+# Scrapt form web
+df_temp = pd.DataFrame()
+list_url = frame['url'].values
+
+
+# -------------------------------------------------
+# Run for this jupyter notebook
+fetch_contents(list_url, df_temp,list_scrapt)
+
+# -------------------------------------------------
+frame.head()
+
+
+# -------------------------------------------------
+frame.shape
