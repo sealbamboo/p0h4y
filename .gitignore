@@ -1,8 +1,7 @@
 node_modules/
 snippets/
 __pycache__/
-<<<<<<< HEAD
+
 .config.py
-=======
+
 ipynb/.ipynb_checkpoints/
->>>>>>> bd74f9c0cb8943629c753ea57937a2b71233a418
