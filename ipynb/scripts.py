@@ -1,9 +1,10 @@
 import re
+import pandas as pd
 
 # Merge list of string into a long text.
 def join_txt(list_txt):
     # Join list of content into 1 simple paragraph
-    seperator = ', '
+    seperator = '. '
     return seperator.join(list_txt)
 
 
@@ -27,7 +28,7 @@ def split_txt_form_url(sample):
         result = sample.replace(url,'')
         result.lstrip().rstrip()
     else:
-        result = ''
+        result = sample
 
     return result
 
@@ -76,28 +77,44 @@ def get_extend_link(regex, sample):
 
 
 # Scrapt content base on xpath command.
-def scrapt_w_xpath(xpath_cmd):
+def scrapt_w_xpath(list_scrapt):
     result = dict()
+    print("IN SCRAPT W XPath")
+
+    # # Content
+    # contents = xpath_selector.xpath(xpath_cmd[0]).extract()
+    # result.update({'contents': contents})
+    # print(len(contents))
     
+    # # Tags
+    # tags = xpath_selector.xpath(xpath_cmd[1]).extract()
+    # result.update({'tags': tags})
+    # print(xpath_cmd[1] , tags)
+    
+    # # Author
+    # author = xpath_selector.xpath(xpath_cmd[2]).extract()
+    # result.update({'author': author})
+    # print(xpath_cmd[2],author)
+
     # Content
     if len(xpath_cmd[0]):
-        contents = xpath_selector.xpath(xpath_cmd[0]).extract()
+        contents = xpath_selector.xpath(list_scrapt[0]).extract()
         contents = join_txt(contents)
     else:
         contents = ''
+    print("Content: ", len(contents))
     
     # Tags
     if len(xpath_cmd[1]):
-        tags = xpath_selector.xpath(xpath_cmd[1]).extract()
+        tags = xpath_selector.xpath(list_scrapt[1]).extract()
     else:
         tags = ''
 
     # Author
-    if len(xpath_cmd[1]):
-        author = xpath_selector.xpath(xpath_cmd[2]).extract()
+    if len(xpath_cmd[2]):
+        author = xpath_selector.xpath(list_scrapt[2]).extract()
     else:
         author = ''
-
 
     # Update object to result
     result.update({
@@ -105,6 +122,9 @@ def scrapt_w_xpath(xpath_cmd):
                     'tags': tags,
                     'author': author
                     })
+
+    print(result)
+
     
     return result
 
@@ -113,6 +133,7 @@ title_attempt = True
 
 def fetch_contents(target_url, target_df, list_xpath):
     
+    result = pd.DataFrame()
     for key, url in enumerate(target_url):
 
         try:
@@ -142,13 +163,13 @@ def fetch_contents(target_url, target_df, list_xpath):
                     # Add new columns
                     if title_attempt:
                         df_temp = pd.DataFrame(columns = list(list_scrapt.keys()))
-                        target_df = pd.concat([bbc, df_temp])
+                        result = pd.concat([df_target, df_temp])
                         print(target_df.columns)
                         title_attempt = False
 
                     # Add to dataFrame
                     for k_, v_ in list_scrapt.items():
-                        target_df[k_].iloc[key] = v_
+                        result[k_].iloc[key] = v_
 
                 else:
                     print("Return list is emptied ! ({})".format(url))
@@ -157,3 +178,5 @@ def fetch_contents(target_url, target_df, list_xpath):
         
         except:
             print(url)
+    
+    return result
