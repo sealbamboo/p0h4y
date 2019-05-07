@@ -1,6 +1,0 @@
-node_modules/
-snippets/
-__pycache__/
-.ipynb_checkpoints/
-.gitignore
-config.py
