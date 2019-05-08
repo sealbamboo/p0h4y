@@ -1,2 +1,10 @@
-DB user: capstone_u
-Pass: 'ic7F\3XPE3--F8hZ'
+# DB user: capstone_u
+# Pass: 'ic7F\3XPE3--F8hZ'
+
+# Dockerfile - this is a comment. Delete me if you want.
+FROM python:3.7.1
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+ENTRYPOINT ["python"]
+CMD ["server.py"]

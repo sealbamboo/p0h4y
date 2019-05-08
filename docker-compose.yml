@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  product-service:
+    build: ./app
+    volumnes:
+      - ./app:/usr/src/app
+    ports:
+      - 5001:80
