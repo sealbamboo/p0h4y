@@ -11,6 +11,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
+regex = r'https?://[^\s<>"]+|www\.[^\s<>"]+'
+
 #  #  #  # TWITTER CLIENT #  #  #  #
 class TwitterClient():
     def __init__(self, twiiter_user=None):
