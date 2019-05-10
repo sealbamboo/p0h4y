@@ -3,5 +3,6 @@ snippets/
 __pycache__/
 
 .config.py
-
+.ipynb_checkpoints/
 ipynb/.ipynb_checkpoints/
+.gitignore
