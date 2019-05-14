@@ -5,4 +5,10 @@ __pycache__/
 .config.py
 .ipynb_checkpoints/
 ipynb/.ipynb_checkpoints/
+ipynb/backup_data/
+ipynb/backup_data/**/*
+# ipynb/run_data/
+ipynb/training/
 .gitignore
+.nlp_preprocessing.ipynb
+
