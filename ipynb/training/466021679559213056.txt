@@ -1,2 +1,0 @@
-Researchers are analyzing pools of patient information collected from routine checkups to help doctors better diagnose their patients This type of data is easier to mine thanks to the rise in electronic health records that contain information collected in regular doctor visits In one instance a group of researchers looked at data from patients
-  

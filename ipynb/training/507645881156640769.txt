@@ -1,2 +1,0 @@
-A hacker broke into part of the HealthCaregov insurance enrollment website in July and uploaded malicious software according to federal officials Investigators found no evidence that consumers personal data were taken or viewed during the breach federal officials said The hacker appears only to have gained access to a server used to test code for HealthCaregov the officials said The
-  
