@@ -10,4 +10,4 @@ ipynb/backup_data/**/*
 # ipynb/run_data/
 ipynb/training/
 .gitignore
-.nlp_preprocessing.ipynb
+nlp_preprocessing.ipynb
