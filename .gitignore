@@ -6,8 +6,7 @@ __pycache__/
 
 ipynb/.ipynb_checkpoints/
 ipynb/backup_data/
-ipynb/backup_data/**/*
-# ipynb/run_data/
+ipynb/backup_data/**
 ipynb/training/
 .gitignore
 nlp_preprocessing.ipynb
