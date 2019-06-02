@@ -8,5 +8,10 @@ ipynb/.ipynb_checkpoints/
 ipynb/backup_data/
 ipynb/backup_data/**
 ipynb/training/
+ipynb/models/
+ipynb/final/
+
+models.zip
+final.zip
+
 .gitignore
-nlp_preprocessing.ipynb
