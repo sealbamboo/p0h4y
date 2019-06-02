@@ -8,10 +8,10 @@ ipynb/.ipynb_checkpoints/
 ipynb/backup_data/
 ipynb/backup_data/**
 ipynb/training/
+ipynb/gs_models/
 ipynb/models/
 ipynb/final/
 
+.gitignore
 models.zip
 final.zip
-
-.gitignore
