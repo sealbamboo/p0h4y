@@ -12,7 +12,7 @@ def hello():
 
 
 server.register_blueprint(app, url_prefix='/sca')
-server.register_blueprint(porfolio, url_prefix='/porfolio')
+server.register_blueprint(porfolio, url_prefix='/')
 server.register_blueprint(sign, url_prefix='/sign')
 
 

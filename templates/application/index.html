@@ -1,7 +1,5 @@
 <!-- -- "Child Template" -->
-{% extends "base.html" %} 
-{% block title %} Web App Page {% endblock %} 
-{% block head %} {{ super() }} {% endblock %}
+{% extends "base.html" %} {% block title %} Web App Page {% endblock %} {% block head %} {{ super() }} {% endblock %}
 
 <!-- Child Content -->
 {% block content %}
@@ -9,6 +7,6 @@
 {% endblock %}
 
 <!-- Custom StyleSheet -->
-{% block stylesheet %}
-    <link rel="stylesheet" href="../../static/css/dashboard.css">
-{% endblock %}
+{% block stylesheets %}
+<!-- <link rel="stylesheet" href="../../static/css/dashboard.css"> -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/dashboard.css')}}"> {% endblock %}

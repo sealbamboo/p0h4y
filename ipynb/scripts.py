@@ -13,15 +13,15 @@ def get_url(regex, sample):
     result = re.search(regex, sample)
 
     if result:
-        print(result[0])
+#         print(result[0])
         return result[0]
 
     return ''
 
 # Split text out of content
 def split_txt_form_url(sample):
-    print(sample)
-    print("\n")
+#     print(sample)
+#     print("\n")
     
     url = get_url(regex_url,sample)
     if len(url):

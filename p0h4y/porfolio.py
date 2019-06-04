@@ -4,7 +4,7 @@ porfolio = Blueprint('porfolio',__name__,
                     template_folder='templates',
                     static_folder='static')
 
-@porfolio.route('/')
+@porfolio.route('/porfolio')
 def home():
     return render_template('./porfolio/index.html')
 

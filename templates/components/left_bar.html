@@ -1,20 +1,32 @@
 <style>
-    .m-column{
-        margin-top: 1.75rem;
+    .m-column {
+        margin-top: 1rem;
+        margin-left: 0.75rem;
     }
-    .m-column li:hover{
-        background-color
+    
+    .m-column li {
+        padding-bottom: 0.5rem;
     }
-    .m-column li a{
+    
+    .m-column li a:hover {
+        background-color: cornflowerblue;
+        color: whitesmoke
+    }
+    
+    .m-column li a {
         display: flex;
         align-items: center;
         vertical-align: middle;
     }
-    .m-column li a span{
+    
+    .m-column li a span {
         margin-left: 0.5rem;
         font-size: 0.75rem;
     }
 </style>
+<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+    <span>CONTROLS</span>
+</h6>
 <ul class="nav flex-column m-column">
     <li class="nav-item">
         <a href="/sca/" class="nav-link">
@@ -47,6 +59,41 @@
         </a>
     </li>
 </ul>
-<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-    <span>Saved somethings</span>
+<h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted" style="margint-top:1.5rem;">
+    <span>Saved</span>
+    <a class="d-flex align-items-center text-muted" href="#">
+        <i class="material-icons" sytle="font-size:14px;">add_circle_outline</i>
+    </a>
 </h6>
+<ul class="nav flex-column m-column">
+    <li class="nav-item">
+        <a href="/sca/" class="nav-link">
+            <i class="material-icons">description</i>
+            <span>Description</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="/sca/datasets" class="nav-link">
+            <i class="material-icons">query_builder</i>
+            <span>Builder</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="/sca/models" class="nav-link">
+            <i class="material-icons">restore_page</i>
+            <span>Restore</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="/sca/predictions" class="nav-link">
+            <i class="material-icons">turned_in_not</i>
+            <span>Turn Over</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a href="/sca" class="nav-link">
+            <i class="material-icons">speaker_notes</i>
+            <span>Notes</span>
+        </a>
+    </li>
+</ul>
