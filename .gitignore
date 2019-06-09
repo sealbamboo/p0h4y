@@ -8,7 +8,8 @@ ipynb/.ipynb_checkpoints/
 ipynb/backup_data/
 ipynb/backup_data/**
 ipynb/training/
-ipynb/dataframe
+ipynb/dataframe/
+ipynb/vectorizer/
 ipynb/gs_models/
 ipynb/models/
 ipynb/final/

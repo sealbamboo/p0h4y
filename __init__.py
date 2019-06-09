@@ -3,7 +3,7 @@ from p0h4y.app import app
 from p0h4y.porfolio import porfolio
 from p0h4y.sign import sign
 
-# Init
+# Init server
 server = Flask(__name__)
 
 @server.route("/")
@@ -16,7 +16,7 @@ server.register_blueprint(porfolio, url_prefix='/')
 server.register_blueprint(sign, url_prefix='/sign')
 
 
-# Default
+# Run Server
 if __name__ == '__main__':
     # Run Debug mode without using env
     server.run(debug=True)

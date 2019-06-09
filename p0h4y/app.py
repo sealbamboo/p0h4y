@@ -1,8 +1,13 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
+import numpy as np
+import pandas as pd 
 
 # Database Stuff
 from .database import session
 from .models import Dataset
+
+# Model
+from ..ipynb.models import 
 
 app = Blueprint('app',__name__,
                 template_folder='templates',
@@ -28,8 +33,21 @@ def dataset():
 def model():
     return render_template('./application/model.html')
 
-@app.route('/predictions')
+@app.route('/predictions', methods=['POST', 'GET'])
 def prediction():
+    '''Gets prediction using the HTML form'''
+    if request.method == 'POST':
+
+        inputs = request.form
+        textContent = inputs['textcontent']
+
+        item = pd.DataFrame([[textContent]], columns=['text'])
+        print("POST: ", textContent)
+        print("[ITEMS]: ",item)
+    else:
+        survive = 0
+        dead = 0
+
     return render_template('./application/prediction.html')
 
 @app.errorhandler(404)

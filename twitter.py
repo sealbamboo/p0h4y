@@ -119,7 +119,7 @@ class TweetAnalyzer():
         df['tweetid'] = np.array([tweet.id for tweet in tweets])        
         df['date'] = np.array([tweet.created_at for tweet in tweets])
         df['author'] = np.array([tweet.author for tweet in tweets])
-        df['geo'] = np.array([tweet.geo for tweet in tweets])
+        df['source'] = np.array([tweet.source for tweet in tweets])
         df['like'] = np.array([tweet.favorite_count for tweet in tweets])
         df['retweets'] = np.array([tweet.retweet_count for tweet in tweets])
         
@@ -140,6 +140,9 @@ if __name__ == "__main__":
     df = tweet_analyzer.tweets_to_data_frame(tweets)
     print(df.head()) 
 
+
+    print(df['tweets'].values)
+
     # Get average length over all tweets.
     print(np.mean(df['retweets']))
     # Get the number or likes for the most liked tweets.
@@ -152,6 +155,7 @@ if __name__ == "__main__":
     # plt.show()
     # =============================================================
     df['sentiment'] = np.array([tweet_analyzer.analyze_sentiment(tweet) for tweet in df['tweets']])
+    print(df['sentiment'].values)
 
     # Authenticate using config.py and connect to Twitter Streaming API
     # hash_tags_list = ['skin care','skincare','skin news','healthcare skin news']

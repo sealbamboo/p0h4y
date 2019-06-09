@@ -1,27 +1,46 @@
-{% extends './base.html' %}
+<!-- Child Template -->
+{% extends 'base.html' %}
+
+<!-- Model Content -->
+{% block title %} SCA | Dataset {% endblock %}
+<!-- Head Content -->
+{% block head %} {{ super() }} {% endblock %}
+
+
 <!-- Dataset Content -->
 {% block content %}
-<h2>Dataset Content Go Here</h2>
-<!-- Start For-loop in batch fillter of 3-->
-{% for post_row in posts | batch(3, '&nbsp;') %}
+<h1>WebApp Dataset.</h1>
 <div class="row">
-    {% for post in post_row %}
-    <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
-        <div class="card bg-light mb-3">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-header">Header -- {{ post.tweetid }}</div>
-            <div class="card-body">
-                <h4 class="card-title">{{ post.url }}</h4>
-                <h6 class="card-text">{{ post.date }}</h6>
-                <p class="card-text">{{ post.title }}</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
+    <div class="col-md-8">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Tweetid</th>
+                    <th scope="col">TweetContent</th>
+                    <th scope="col">Url</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for key, record in data %}
+                <tr>
+                    <th scope="row">{{ key+1 }}</th>
+                    <td>{{ record.tweetid }}</td>
+                    <td>{{ record.tweetcontent }}</td>
+                    <td>{{ record.url }}</td>
+                </tr>
+                <!-- End For-loop -->
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
-    {% endfor %}
 </div>
-<!-- End For-loop -->
-{% endfor %}
-
 <!-- End of "Content" block -->
 {% endblock %}
+
+
+
+<!-- Custom StyleSheet -->
+{% block stylesheets %}
+<!-- <link rel="stylesheet" href="../../static/css/dashboard.css"> -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/dashboard.css')}}"> {% endblock %}
