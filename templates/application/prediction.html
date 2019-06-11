@@ -1,14 +1,23 @@
 <!-- -- "Child Template" -->
-{% extends "base.html" %} {% block title %} SCA | Prediction {% endblock %} {% block head %} {{ super() }} {% endblock %}
+{% extends "base.html" %} 
+
+<!-- Model Content -->
+{% block title %} title {% endblock %}
+<!-- Head Content -->
+{% block head %} {{ super() }} {% endblock %}
 
 <!-- Child Content -->
 {% block content %}
-<h1>WebApp prediction.</h1>
-<form action="" method="POST">
-    <textarea name="textcontent" id="textcontent" cols="30" rows="20" class="form-control" placeholder="Enter Text Content"></textarea>
-    <br>
-    <input id="modalBtn" class="btn btn-primary" type="submit" value="Predict" />
-</form>
+<h1>{{ title }}</h1>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <form action="" method="POST">
+            <textarea name="textcontent" id="textcontent" cols="30" rows="20" class="form-control" placeholder="Enter Text Content"></textarea>
+            <br>
+            <input id="modalBtn" class="btn btn-primary" type="submit" value="Predict" />
+        </form>
+    </div>
+</div>
 <!-- End of "Content" block -->
 {% endblock %}
 

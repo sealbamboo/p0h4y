@@ -1,14 +1,19 @@
-from flask import Blueprint, render_template, request
+import dill
 import numpy as np
 import pandas as pd 
+from flask import Blueprint, render_template, request
 
 # Database Stuff
 from .database import session
-from .models import Dataset
+from .models import Dataset, Model
 
 # Model
-from ..ipynb.models import 
+from .mhelper import predict_topic
+from config import MODEL_2
 
+
+# App
+app_name = 'SCA |'
 app = Blueprint('app',__name__,
                 template_folder='templates',
                 static_folder='static')
@@ -22,16 +27,31 @@ def dataset():
     dataset = session.query(Dataset).all()
     sent_data = []
     for record in dataset:
-        obj = {'tweetid': record.tweetid,
-                'date': record.date,
+        obj = {'tweetid':       record.tweetid,
+                'date':         record.date,
                 'tweetcontent': record.tweetcontent,
-                'url': record.url}
+                'url':          record.url
+                }
         sent_data.append(obj)
-    return render_template('./application/dataset.html',data= enumerate(dataset))
+    return render_template('./application/dataset.html',
+                            title= app_name + ' Dataset',
+                            data= enumerate(dataset))
 
 @app.route('/models')
 def model():
-    return render_template('./application/model.html')
+    models = session.query(Model).all()
+    data = []
+    for model in models:
+        data.append({
+                        'name':         model.name,
+                        'technical':    model.technical,
+                        'description':  model.description,
+                        'location':     model.location,
+                        'image':        model.image
+                    })
+    return render_template('./application/model.html',
+                            title= app_name + ' Models',
+                            data=data)
 
 @app.route('/predictions', methods=['POST', 'GET'])
 def prediction():
@@ -48,7 +68,8 @@ def prediction():
         survive = 0
         dead = 0
 
-    return render_template('./application/prediction.html')
+    return render_template('./application/prediction.html',
+                            title= app_name + ' Predictions')
 
 @app.errorhandler(404)
 def page_not_found(e):
