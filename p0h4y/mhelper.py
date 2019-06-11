@@ -1,27 +1,40 @@
 import dill
 import numpy as np
 import pandas as pd
+
+# Gensim
+import gensim
+import gensim.corpora as corpora
+
+# Sklearn Stop words
+from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+
+# NLTK
 from nltk.stem import WordNetLemmatizer, SnowballStemmer
-from config import MODEL_2, VECTORIZER, DATAFRAME
+from config import MODEL_GENSIM, VECTORIZER, DATAFRAME, DICTIONARY
 stemmer = SnowballStemmer("english")
 
 # ------------------------------------------------------------------------------------------------------------------
 # Initialize Dependencies
 # ------------------------------------------------------------------------------------------------------------------
-with open(MODEL_2, 'rb') as f:
-    h_predictor = dill.load(f)
+with open(MODEL_GENSIM, 'rb') as f:
+    h_g_predictor = dill.load(f)
 
 with open(VECTORIZER, 'rb') as f:
     h_vector = dill.load(f)
 
-h_dictionary = pd.read_csv(DATAFRAME,sep='|')
+h_v_dictionary = pd.read_csv(DATAFRAME,sep='|')
+h_g_dictionary = corpora.Dictionary.load(DICTIONARY)
 
+# stopwords
+extra = ['say','england','canada','canadian','wait','walk','even','work','use','healthcare','work','now']
+M_STOP_WORDS = ENGLISH_STOP_WORDS.union(extra)
 
 
 # ------------------------------------------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------------------------------------------
 # Define function to predict topic for a given text document.
-def predict_topic(text, nlp=None, vectorizer=h_vector, best_lda_model=h_predictor, df_topic_keywords=h_dictionary):
+def predict_topic(text, nlp=None, vectorizer=h_vector, best_lda_model=h_g_predictor, df_topic_keywords=h_v_dictionary):
     global sent_to_words
     global lemmatization
 
@@ -64,3 +77,22 @@ def sent_to_words_by_single(sentences):
         result.append(token)
     
     return result
+
+
+# ------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------
+# Tokenize and lemmatize for gensim
+def preprocess(text):
+    result=[]
+    for token in gensim.utils.simple_preprocess(text) :
+        if token not in M_STOP_WORDS and len(token) > 3:
+            result.append(lemmatize_stemming(token))
+            
+    return result
+
+
+# ------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------
+# Lematize depedencies for gensim
+def lemmatize_stemming(text):
+    return stemmer.stem(WordNetLemmatizer().lemmatize(text, pos='v'))

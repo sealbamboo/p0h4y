@@ -1,6 +1,8 @@
 from sqlalchemy import Column, Integer, String, Date
 from .database import Base
 
+# ------------------------------------------------------------------------------------------------------------------
+# DATASET
 class Dataset(Base):
     __tablename__ = 'dataset'
     index           = Column(Integer, primary_key=True)
@@ -33,6 +35,9 @@ class Dataset(Base):
     #             'tweetcontent': self.get_tweetcontent,
     #             'url': self.get_url}
 
+
+# ------------------------------------------------------------------------------------------------------------------
+# MODEL
 class Model(Base):
     __tablename__= 'models'
     id          = Column(Integer, primary_key=True)
@@ -63,3 +68,27 @@ class Model(Base):
 
     def get_image(self):
         return self.image
+
+
+# ------------------------------------------------------------------------------------------------------------------
+# TOPIC
+class Topic(Base):
+    __tablename__= 'topics'
+    id          = Column(Integer, primary_key=True)
+    topicid     = Column('topicid', Integer)
+    name        = Column('name', String)
+    model       = Column('model', String)
+
+    def __init__(self, tid_, n_, m_):
+        self.topicid    = tid_,
+        self.name       = n_,
+        self.model      = m_
+    
+    def get_topicid(self):
+        return self.topicid
+
+    def get_name(self):
+        return self.name
+
+    def get_model(self):
+        return self.model

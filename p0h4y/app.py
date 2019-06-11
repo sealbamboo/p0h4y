@@ -5,11 +5,10 @@ from flask import Blueprint, render_template, request
 
 # Database Stuff
 from .database import session
-from .models import Dataset, Model
+from .models import Dataset, Model, Topic
 
 # Model
-from .mhelper import predict_topic
-from config import MODEL_2
+from .mhelper import predict_topic, h_g_dictionary, preprocess, h_g_predictor
 
 
 # App
@@ -60,10 +59,32 @@ def prediction():
 
         inputs = request.form
         textContent = inputs['textcontent']
+        print("RECEIVED: ",len(textContent))
+
+        # Data preprocessing step for the unseen document
+        # --------------------------------------------------------------------------
+        bow_vector = h_g_dictionary.doc2bow(preprocess(textContent))
+        prob_topic = {}
+        ATLEAST = 0
+        for index, score in sorted(h_g_predictor[bow_vector], key=lambda tup: -1*tup[1]):
+            if ATLEAST < 3:
+                prob_topic.update({score:h_g_predictor.print_topic(index, 5)})
+            # print("Score: {}\t Topic: {}".format(score, h_g_predictor.print_topic(index, 5)))
+            ATLEAST += 1
+        print(prob_topic)
 
         item = pd.DataFrame([[textContent]], columns=['text'])
-        print("POST: ", textContent)
-        print("[ITEMS]: ",item)
+        
+        # Preview each topic & explore the words occuring and its relative weight
+        # Link: https://auth0.com/blog/sqlalchemy-orm-tutorial-for-python-developers/#SQLAlchemy-in-Practice
+        # --------------------------------------------------------------------------
+        dictionary_topic = session.query(Topic).filter(Topic.model == 'gensim').all()
+        print(dictionary_topic)
+        # for idx, topic in h_g_predictor.print_topics(-1):
+        #     dictionary_topic.update({idx+1: topic})
+            # print("Topic: {} \nWords: {} \n".format(idx, topic ))
+        
+
     else:
         survive = 0
         dead = 0
@@ -73,4 +94,4 @@ def prediction():
 
 @app.errorhandler(404)
 def page_not_found(e):
-    return render_template('./erros/404.html'), #404
+    return render_template('./errors/404.html'), #404

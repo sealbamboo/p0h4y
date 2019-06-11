@@ -1,3 +1,4 @@
+import re
 import config
 from sklearn.base import TransformerMixin, BaseEstimator
 from nltk.stem import WordNetLemmatizer, SnowballStemmer

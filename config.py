@@ -5,19 +5,27 @@ CONSUMER_KEY = "v2wGdaJ01jOVGHtsKuL4B7qBs"
 CONSUMER_SECRET = "ekGREAz877UN6HMw5DBrP2f0aIR3jAFfnclSO9HZOImo4BdPQE"
 
 
+# ------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------
 # Model Link
 MODEL_WORKPLACE = './ipynb/models/'
-MODEL_1 = MODEL_WORKPLACE + 'lda_tfidf_uni_c_dill.pkl'
-MODEL_2 = MODEL_WORKPLACE + 'gensim_lda_model.model'
-
-
+MODEL_VEC = MODEL_WORKPLACE + 'lda_tfidf_uni_c_dill.pkl'
+MODEL_GENSIM = MODEL_WORKPLACE + 'gensim_model_dill.pkl'
 
 # Vectorizer Link
 VECTORIZER_WORKPLACE = './ipynb/vectorizer/'
 VECTORIZER = VECTORIZER_WORKPLACE + 'tfidf_uni.vector'
 
-
-
 # Dataframe Link
 DATAFRAME_WORKPLACE = './ipynb/dataframe/'
 DATAFRAME = DATAFRAME_WORKPLACE + 'tfidf_uni.csv'
+
+
+
+# ------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------
+# Dictionary (Gensim) Link
+DICTIONARY = MODEL_WORKPLACE + 'gensim_dictionary.dict'
+
+# Bag Of Words
+BOW_CORPUS = MODEL_WORKPLACE + 'gensim_bow_corpus.mm'
