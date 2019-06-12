@@ -633,7 +633,7 @@
 572349003775524864|Mon Mar 02 10:53:30 +0000 2015|The spread of western disease: 'The poor are dying more and more like the rich' http://gu.com/p/465yk/stw via @GuardianGDP
 572337458005839872|Mon Mar 02 10:07:38 +0000 2015|RT @_oatc_: @ProfRHarris @GdnHealthcare @SocietyGuardian Patients &gt;60 need older doctors in profession too, agin idea we are disposable oth
 572331553428267008|Mon Mar 02 09:44:10 +0000 2015|New: Pharmaceutical marketing to doctors harms our profession and our patients http://gu.com/p/465mk/stw #ViewsfromtheNHSfrontline
-572318742685753344|Mon Mar 02 08:53:16 +0000 2015|Children’s healthcare must not suffer at the hands of politicians chasing the ‘grey vote’ | @guardianletters http://gu.com/p/468gp/stw
+572318742685753344|Mon Mar 02 08:53:16 +0000 2015|Children’s healthcare must not suffer at the hands of politicians chasing the ‘grey vote’ @guardianletters http://gu.com/p/468gp/stw
 572311637455081474|Mon Mar 02 08:25:02 +0000 2015|Analysis: Manchester’s plan has implications for the whole NHS, writes @RichardVize http://gu.com/p/4678g/stw
 572302596330950656|Mon Mar 02 07:49:06 +0000 2015|More than half of GPs expect to leave profession before 60, says survey http://gu.com/p/468gv/stw via @SocietyGuardian
 572082917859409920|Sun Mar 01 17:16:11 +0000 2015|‘The NHS doesn’t have a clear approach to how you do change' http://gu.com/p/46x58/stw
@@ -961,7 +961,7 @@
 565476757713997824|Wed Feb 11 11:45:39 +0000 2015|What would you like to see us cover on the network? #NHS #healthcare
 565447673268809728|Wed Feb 11 09:50:05 +0000 2015|NHS whistleblowers: the staff who raised the alarm http://gu.com/p/45y98/stw
 565442892756688896|Wed Feb 11 09:31:05 +0000 2015|RT @nhsLfhp: Great article on services coming together: How one London borough aims to improve homeless people’s health http://t.co/8FzddzS
-565442776356376576|Wed Feb 11 09:30:37 +0000 2015|RT @LigiaTeixeira: Brilliant to see #haringeycouncil trying to improve #homeless people’s health @pjmmor | http://gu.com/p/45jkh/stw
+565442776356376576|Wed Feb 11 09:30:37 +0000 2015|RT @LigiaTeixeira: Brilliant to see #haringeycouncil trying to improve #homeless people’s health @pjmmor http://gu.com/p/45jkh/stw
 565442718655344640|Wed Feb 11 09:30:24 +0000 2015|RT @crisis_uk: Important @GdnHealthcare piece on @MungosBroadway's #homelesshealthmatters campaign - includes #HME2015 research:  http://t.
 565442652792176640|Wed Feb 11 09:30:08 +0000 2015|RT @MungosBroadway: Great article from @haringeycouncil on joining our campaign &amp; how they are improving #homelesshealth http://t.co/Rxagmp
 565440841389703169|Wed Feb 11 09:22:56 +0000 2015|New: Government should look to NHS for ways to improve general election 2015 http://gu.com/p/45ke2/stw #GeneralElection #NHS @healthelections
@@ -1885,7 +1885,7 @@
 547033454740008960|Mon Dec 22 14:18:33 +0000 2014|RT @grumblingA: @GdnHealthcare @SDawlatly  Very enjoyable! You might like my own Christmas offering - Nurse Bel and the Empty Bed: https://
 547017813379252224|Mon Dec 22 13:16:24 +0000 2014|Popular this lunchtime: Everyone in the NHS dreads working at Christmas – but it fills me with pride http://bit.ly/1zUvjPl
 547016986614849537|Mon Dec 22 13:13:07 +0000 2014|@THKONP It is a temporary blip. Should be back to normal later. Society section is here: http://www.theguardian.com/society
-547016507583377408|Mon Dec 22 13:11:13 +0000 2014|RT @SDawlatly: My first @GdnHealthcare blog| Dr Scrooge meets the GP ghosts of past, present and future http://gu.com/p/44atk/stw #NHS
+547016507583377408|Mon Dec 22 13:11:13 +0000 2014|RT @SDawlatly: My first @GdnHealthcare blog Dr Scrooge meets the GP ghosts of past, present and future http://gu.com/p/44atk/stw #NHS
 547016461513162752|Mon Dec 22 13:11:02 +0000 2014|RT @etracey93: @GdnHealthcare I loved working Xmas in a residential care home last year, making the residents day that little bit more spec
 547002502747787264|Mon Dec 22 12:15:34 +0000 2014|What's it like working at Christmas in a hospital? @JennyMHughes explains all http://bit.ly/1zUvjPl #ViewsfromtheNHSfrontline
 546990838707138560|Mon Dec 22 11:29:13 +0000 2014|New: Dr Scrooge meets the GP ghosts of past, present and future, by @SDawlatly http://gu.com/p/44atk/stw #NHS
@@ -2598,17 +2598,17 @@
 533216573998129153|Fri Nov 14 11:15:12 +0000 2014|Ashtead hospital seek new staff and are holding a recruitment open day on Saturday 15 November 10am-2pm http://gu.com/p/435za/tw – ad feature
 533205229563416577|Fri Nov 14 10:30:07 +0000 2014|Data in healthcare: ‘I want to see digital health move into the mainstream’ http://gu.com/p/434ja/tw #NHS #health #data
 533193966926450688|Fri Nov 14 09:45:22 +0000 2014|Day in the life: 'People assume children’s hospices are sad, but it’s a really lovely place to be' http://gu.com/p/4395f/tw
-533159922477723648|Fri Nov 14 07:30:05 +0000 2014|The government has repeated errors from other failed initiatives in the Better Care Fund | @RichardVize http://gu.com/p/43ax3/tw
-533008985675141120|Thu Nov 13 21:30:19 +0000 2014|Will the opinions of wheelchair users being made public improve disabled people’s lives? | @RuthOwenOBE @neilbacon http://gu.com/p/438n2/tw
+533159922477723648|Fri Nov 14 07:30:05 +0000 2014|The government has repeated errors from other failed initiatives in the Better Care Fund @RichardVize http://gu.com/p/43ax3/tw
+533008985675141120|Thu Nov 13 21:30:19 +0000 2014|Will the opinions of wheelchair users being made public improve disabled people’s lives? @RuthOwenOBE @neilbacon http://gu.com/p/438n2/tw
 532993840517369856|Thu Nov 13 20:30:08 +0000 2014|The Better Care Fund has set back the shift of resources from hospitals to communities, says @RichardVize http://gu.com/p/43ax3/tw
 532978747775791104|Thu Nov 13 19:30:10 +0000 2014|@amlan_basu on Broadmoor: "We treat mentally disordered men, not prisoners" http://gu.com/p/437z3/tw
 532963654849662976|Thu Nov 13 18:30:11 +0000 2014|The government have mishandled the Better Care Fund projects, says @RichardVize http://gu.com/p/43ax3/tw
-532948576180006913|Thu Nov 13 17:30:16 +0000 2014|We can transform wheelchair services by listening to patients | @RuthOwenOBE @neilbacon http://gu.com/p/438n2/tw
+532948576180006913|Thu Nov 13 17:30:16 +0000 2014|We can transform wheelchair services by listening to patients  @RuthOwenOBE @neilbacon http://gu.com/p/438n2/tw
 532933540627755008|Thu Nov 13 16:30:32 +0000 2014|The report into the Better Care Fund exposes how the government mishandled the project, says @RichardVize http://gu.com/p/43ax3/tw
 532873082675802112|Thu Nov 13 12:30:17 +0000 2014|Broadmoor is often misrepresented as a prison rather than a high secure hospital, says clinical director @amlan_basu http://gu.com/p/437z3/tw
-532856658590842880|Thu Nov 13 11:25:02 +0000 2014|Many disabled children sit on waiting lists without any equipment for far too long | Ruth Owen @neilbacon http://gu.com/p/438n2/tw
+532856658590842880|Thu Nov 13 11:25:02 +0000 2014|Many disabled children sit on waiting lists without any equipment for far too long  Ruth Owen @neilbacon http://gu.com/p/438n2/tw
 532856398615674880|Thu Nov 13 11:24:00 +0000 2014|http://gu.com/p/438n2/tw
-532850396000034816|Thu Nov 13 11:00:08 +0000 2014|Ruth Owen &amp; Neil Bacon | Wheelchair services don't focus on providing mobility equipment that will give users independence @WhizzKidz @iwgc
+532850396000034816|Thu Nov 13 11:00:08 +0000 2014|Ruth Owen &amp; Neil Bacon  Wheelchair services don't focus on providing mobility equipment that will give users independence @WhizzKidz @iwgc
 532842854683381761|Thu Nov 13 10:30:10 +0000 2014|"I love medicine for its unpredictability, but I feel like I never leave the hospital"  http://gu.com/p/43vac/tw #viewsfromtheNHSfrontline
 532831513528647680|Thu Nov 13 09:45:07 +0000 2014|Sign up to our network for the latest articles and event offers – it's quick, easy and free http://register.theguardian.com/healthcare-pro
 532820176173924352|Thu Nov 13 09:00:03 +0000 2014|#Broadmoor hospital: "why we opened our doors to a film crew" http://gu.com/p/437z3/tw
@@ -2624,7 +2624,7 @@
 532586198431059970|Wed Nov 12 17:30:19 +0000 2014|Most people don’t know they have the right to view medical records online http://theguardian.com/healthcare-net
 532574854503866369|Wed Nov 12 16:45:14 +0000 2014|"While charging drunk A&amp;E patients will make life easier for doctors, it is discriminatory" says Dr Jason Sarfo-Annin http://gu.com/p/435tf/tw
 532563571570270211|Wed Nov 12 16:00:24 +0000 2014|Talkpoint: should mental health be given the same priority as physical health? http://gu.com/p/42ydx/tw #NHS #mentalhealth #health
-532552198090018816|Wed Nov 12 15:15:13 +0000 2014|Patient data: enabling the future of healthcare | Anthony Jones http://gu.com/p/42qkk/tw #NHS #health #data
+532552198090018816|Wed Nov 12 15:15:13 +0000 2014|Patient data: enabling the future of healthcare  Anthony Jones http://gu.com/p/42qkk/tw #NHS #health #data
 532548492720209920|Wed Nov 12 15:00:29 +0000 2014|Data in healthcare: ‘I want to see digital health move into the mainstream’ http://gu.com/p/434ja/tw #NHS #health #data
 532537087623307266|Wed Nov 12 14:15:10 +0000 2014|Obesity surgery saves NHS cash and improves quality of life, says study http://gu.com/p/436mk/tw #mentalhealth #NHS
 532533371260260353|Wed Nov 12 14:00:24 +0000 2014|Mental health: Permission to film documentary at Broadmoor was granted after five years of negotiations http://gu.com/p/437z3/tw
@@ -2639,12 +2639,12 @@
 532469107480739840|Wed Nov 12 09:45:02 +0000 2014|Views from the NHS frontline: "Doctors are well paid – but I still don’t get enough for what I do" http://gu.com/p/43vac/tw #NHS #doctors
 532457811305697280|Wed Nov 12 09:00:09 +0000 2014|"Women in the #NHS should not behave like men to get ahead," says Karen Castille http://gu.com/p/434nk/tw #healthcare #women #careers
 532446486374531075|Wed Nov 12 08:15:09 +0000 2014|"It is our job to isolate and treat patients who present symptoms of Ebola, minimising risk to staff and the public" http://gu.com/p/435qh/tw
-532435174915465216|Wed Nov 12 07:30:12 +0000 2014|Why the #NHS should listen and act on patient complaints | James Munro @patientopinion http://gu.com/p/43vej/tw #healthcare #doctors
+532435174915465216|Wed Nov 12 07:30:12 +0000 2014|Why the #NHS should listen and act on patient complaints  James Munro @patientopinion http://gu.com/p/43vej/tw #healthcare #doctors
 532287948884955136|Tue Nov 11 21:45:11 +0000 2014|Syed Abrar: "I want to see digital health move into the mainstream" http://gu.com/p/434ja/tw
 532276638113751041|Tue Nov 11 21:00:14 +0000 2014|"Charging drunk patients in A&amp;E wouldn’t sit right with my conscience" http://gu.com/p/435tf/tw #viewsfromthenhsfrontline
 532265300717076480|Tue Nov 11 20:15:11 +0000 2014|Would you like to write about the highs and lows of working for the NHS? http://gu.com/p/4vkmy/tw #viewsfromtheNHSfrontline
 532253981284655107|Tue Nov 11 19:30:12 +0000 2014|Obesity surgery saves NHS cash and improves quality of life, says study http://gu.com/p/436mk/tw #mentalhealth #NHS
-532242643502104577|Tue Nov 11 18:45:09 +0000 2014|Patient data: enabling the future of healthcare | Anthony Jones http://gu.com/p/42qkk/tw #NHS #health #data
+532242643502104577|Tue Nov 11 18:45:09 +0000 2014|Patient data: enabling the future of healthcare  Anthony Jones http://gu.com/p/42qkk/tw #NHS #health #data
 532238906712784896|Tue Nov 11 18:30:18 +0000 2014|Sign up to our network for the latest articles and event offers – it's quick, easy and free 
 532231351764647937|Tue Nov 11 18:00:17 +0000 2014|Talkpoint: should mental health be given the same priority as physical health? http://gu.com/p/42ydx/tw  #NHS #mentalhealth #health
 532219988212338689|Tue Nov 11 17:15:08 +0000 2014|Data in healthcare: ‘I want to see digital health move into the mainstream’ http://gu.com/p/434ja/tw #NHS #health #data
@@ -2653,21 +2653,21 @@
 532186065583341569|Tue Nov 11 15:00:20 +0000 2014|NHS Five Year Forward View: "In a stressed system the risks of failure are high," says Richard Vize http://gu.com/p/42qax/tw #health #NHS
 532174674705129472|Tue Nov 11 14:15:04 +0000 2014|Views from the NHS frontline: "Doctors are well paid – but I still don’t get enough for what I do" http://gu.com/p/43vac/tw #NHS #doctors
 532163391045906434|Tue Nov 11 13:30:14 +0000 2014|"Women in the #NHS should not behave like men to get ahead," says Karen Castille http://gu.com/p/434nk/tw #healthcare #women #careers
-532152026709250048|Tue Nov 11 12:45:04 +0000 2014|Why the #NHS should listen and act on patient complaints | James Munro @patientopinion http://gu.com/p/43vej/tw #healthcare #doctors
+532152026709250048|Tue Nov 11 12:45:04 +0000 2014|Why the #NHS should listen and act on patient complaints  James Munro @patientopinion http://gu.com/p/43vej/tw #healthcare #doctors
 532140757017055234|Tue Nov 11 12:00:17 +0000 2014|"It is our job to isolate and treat patients who present symptoms of Ebola, minimising risk to staff and the public" http://gu.com/p/435qh/tw
 532129391988314113|Tue Nov 11 11:15:08 +0000 2014|"Charging drunk patients in A&amp;E wouldn’t sit right with my conscience," says Dr Sarfo-Annin http://gu.com/p/435tf/tw #health #NHS
 532118062804119552|Tue Nov 11 10:30:07 +0000 2014|Talkpoint: how are NHS hospitals preparing for the Ebola outbreak? http://gu.com/p/435qh/tw #health #NHS
 532099042118230017|Tue Nov 11 09:14:32 +0000 2014|Today's top @SocietyGuardian health story: Plan to reduce unnecessary hospital visits overoptimistic, say auditors http://gu.com/p/437g5/tw
 532091662210580480|Tue Nov 11 08:45:12 +0000 2014|A response to patients' feedback or concern is the least the NHS could do, says @jamesfm55 http://gu.com/p/43vej/tw
-532084104070578179|Tue Nov 11 08:15:10 +0000 2014|Ashtead hospital in Surrey seeks new staff for expanding services | Ad feature http://gu.com/p/435za/tw
-532072763414945795|Tue Nov 11 07:30:06 +0000 2014|Jason Sarfo-Annin | If patients start getting charged for “self-inflicted” A&amp;E attendances, where do we draw the line?http://gu.com/p/435tf/tw
-531921806643318784|Mon Nov 10 21:30:15 +0000 2014|NHS staff should acknowledge concerns, take action where necessary, and report back on what was done | James Munro http://gu.com/p/43vej/tw
-531906892214198272|Mon Nov 10 20:31:00 +0000 2014|Charging drunk A&amp;E patients might make life easier for doctors but it is discriminatory | Jason Sarfo-Annin http://gu.com/p/435tf/tw
+532084104070578179|Tue Nov 11 08:15:10 +0000 2014|Ashtead hospital in Surrey seeks new staff for expanding services  Ad feature http://gu.com/p/435za/tw
+532072763414945795|Tue Nov 11 07:30:06 +0000 2014|Jason Sarfo-Annin  If patients start getting charged for “self-inflicted” A&amp;E attendances, where do we draw the line?http://gu.com/p/435tf/tw
+531921806643318784|Mon Nov 10 21:30:15 +0000 2014|NHS staff should acknowledge concerns, take action where necessary, and report back on what was done  James Munro http://gu.com/p/43vej/tw
+531906892214198272|Mon Nov 10 20:31:00 +0000 2014|Charging drunk A&amp;E patients might make life easier for doctors but it is discriminatory  Jason Sarfo-Annin http://gu.com/p/435tf/tw
 531891597038718976|Mon Nov 10 19:30:13 +0000 2014|Syed Abrar, founder of app Buddy, wants to support therapy services by using the technology to hand http://gu.com/p/434ja/tw
-531876521791598593|Mon Nov 10 18:30:19 +0000 2014|Women should not behave like men to get ahead as NHS leaders | @KarenCastille http://gu.com/p/434nk/tw
+531876521791598593|Mon Nov 10 18:30:19 +0000 2014|Women should not behave like men to get ahead as NHS leaders  @KarenCastille http://gu.com/p/434nk/tw
 531861396795817984|Mon Nov 10 17:30:13 +0000 2014|.@jamesfm55 on how the NHS should listen and act on patient complaints http://gu.com/p/43vej/tw
 531846333762510848|Mon Nov 10 16:30:21 +0000 2014|Read our interview with Syed Abrar, founder of Buddy app - the digital tool used for supporting therapy services http://gu.com/p/434ja/tw
-531831220909256704|Mon Nov 10 15:30:18 +0000 2014|Making certain patients pay for emergency services is discriminatory | Jason Sarfo-Annin http://gu.com/p/435tf/tw #viewsfromtheNHSfrontline
+531831220909256704|Mon Nov 10 15:30:18 +0000 2014|Making certain patients pay for emergency services is discriminatory  Jason Sarfo-Annin http://gu.com/p/435tf/tw #viewsfromtheNHSfrontline
 531816094525169664|Mon Nov 10 14:30:12 +0000 2014|.@jamesfm55: "a new culture of listening in the NHS is necessary for change" http://gu.com/p/43vej/tw
 531801017189294080|Mon Nov 10 13:30:17 +0000 2014|Syed Abrar: "I want to see digital health move into the mainstream" http://gu.com/p/434ja/tw
 531791269069328385|Mon Nov 10 12:51:33 +0000 2014|How I did on Twitter this week: 350 New Followers, 116 Mentions, 321K Mention Reach. How'd your week go? via http://sumall.com/myweek

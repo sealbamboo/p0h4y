@@ -1,0 +1,37 @@
+<!-- -- "Child Template" -->
+{% extends "base.html" %}
+
+<!-- Model Content -->
+{% block title %} {{title}} {% endblock %}
+<!-- Head Content -->
+{% block head %} {{ super() }} {% endblock %}
+
+<!-- Child Content -->
+{% block content %}
+<h1>{{ title }}</h1>
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <form action="" method="POST">
+            <textarea name="textcontent" id="textcontent" cols="30" rows="20" class="form-control" placeholder="Enter Text Content"></textarea>
+            <br>
+            <input id="modalBtn" class="btn btn-primary" type="submit" value="Predict" />
+        </form>
+    </div>
+    <div class="col-md-5">
+        {% for model in data %}
+        <h6>{{ model.name }}</h6>
+        <div class="progress progress-bar-striped progress-bar-animated mb-2" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: {{ model.display }}" aria-valuenow="{{ model.score }}" aria-valuemin="0" aria-valuemax="100">{{ model.display }}</div>
+        </div>
+        <hr/>
+        <!-- End For-loop model_row-->
+        {% endfor %}
+    </div>
+</div>
+<!-- End of "Content" block -->
+{% endblock %}
+
+<!-- Custom StyleSheet -->
+{% block stylesheets %}
+<!-- <link rel="stylesheet" href="../../static/css/dashboard.css"> -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/dashboard.css')}}"> {% endblock %}

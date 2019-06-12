@@ -1,0 +1,78 @@
+<!-- "Parent Template" -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    {% block head %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Embedded stylesheets -->
+    {% include './components/styles.html' %}
+
+    <title>{% block title %}Welcome to Capstone-App{% endblock %}</title>
+    <style>
+        #m_layout{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+        #m_layout > div{
+            min-width: 280px;
+            min-height: 320px;
+            text-align: center;
+            margin: 1rem 0 0 1rem;
+            padding: 1rem;
+            border: 1px solid #ffffff;
+            background-color: #eeeeee;
+            border-radius: 3px;
+        }
+        #m_layout > div h3{
+            margin-top: 1.75rem;
+        }
+        #m_layout > div p{
+            margin-bottom: 6rem;
+        }
+        .material-icons.md-48 { font-size: 128px; }
+        .m_signin{
+            line-height: 2rem;
+            margin:0.75rem 0 0.25rem; 
+        }
+        form button{
+            margin-top:2rem;
+        }
+    </style>
+    {% endblock %}
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row flex-xl-nowrap" id="m_layout">
+            <div class="col-sm-12 col-md-4">
+                <h3><i class="material-icons md-48">dns</i></h3>
+                <p>SCA</p>
+                <a class="btn btn-md btn-block btn-outline-secondary active" href="/sca">Take a Tour</a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <h3><i class="material-icons md-48">store</i></h3>
+                <p>SF</p>
+                <a class="btn btn-md btn-block btn-outline-info active" href="/porfolio">View Now</a>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <h3>Please sign in</h3>
+                <form action="" class="form-signin" style="text-align: left !important;margin-top:3rem;">
+                    <div class="form-label-group m_signin">
+                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address">
+                    </div>
+                    <div class="form-label-group m_signin">
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password">
+                    </div>
+                    <button class="btn btn-lg btn-primary" type="submit">Sign in</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!-- -- "Child Template" -->
+{% extends "base.html" %}
+
+<!-- Model Content -->
+{% block title %} {{ title }} {% endblock %}
+<!-- Head Content -->
+{% block head %} {{ super() }} {% endblock %}
+
+<!-- Child Content -->
+{% block content %}
+<h1>{{ title }}</h1>
+<div class="row">
+    <div class="col-md-11 col-sm-12">
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Tweetid</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">TweetContent</th>
+                    <th scope="col">Url</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for key, record in data %}
+                <tr>
+                    <th scope="row">{{ key+1 }}</th>
+                    <td>{{ record.tweetid }}</td>
+                    <td>{{ record.date }}</td>
+                    <td>{{ record.tweetcontent }}</td>
+                    <td><a href={{ record.url }} target="_blank">{{ record.url }}</a></td>
+                </tr>
+                <!-- End For-loop -->
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- End of "Content" block -->
+{% endblock %}
+
+<!-- Custom StyleSheet -->
+{% block stylesheets %}
+<!-- <link rel="stylesheet" href="../../static/css/dashboard.css"> -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'css/dashboard.css')}}"> {% endblock %}

@@ -843,7 +843,7 @@
 529759693581729792|Tue Nov 04 22:18:48 +0000 2014|Marijuana grow facility heads to court over rejected application http://www.cbc.ca/news/politics/medical-marijuana-applicant-takes-health-canada-to-court-1.2823362?cmp=rss
 529749802859655169|Tue Nov 04 21:39:29 +0000 2014|Journal inspired by crisis at Canadian Medical Association Journal closes http://www.cbc.ca/news/health/canadian-medical-journal-open-medicine-stops-publishing-1.2823643?cmp=rss
 529748973087883264|Tue Nov 04 21:36:12 +0000 2014|RT @susanamas: Alexander: "We are doing this because the court has ordered us to do it. We respect that decision while not agreeing with it…
-529748838836625409|Tue Nov 04 21:35:40 +0000 2014|RT @susanamas: 1/ NEW | Immigration Minister Chris Alexander says Ottawa will offer health care under the IFHP to pregnant woman, children.…
+529748838836625409|Tue Nov 04 21:35:40 +0000 2014|RT @susanamas: 1/ NEW Immigration Minister Chris Alexander says Ottawa will offer health care under the IFHP to pregnant woman, children.…
 529696094611984384|Tue Nov 04 18:06:04 +0000 2014|Ottawa will 'comply' with refugee health-care ruling until appeal is heard http://www.cbc.ca/news/politics/chris-alexander-says-ottawa-will-comply-with-refugee-health-care-ruling-1.2823265?cmp=rss
 529661380643663872|Tue Nov 04 15:48:08 +0000 2014|Naloxone could curb rising trend in prescription drug-related overdose deaths, WHO says http://www.cbc.ca/news/health/naloxone-could-curb-rising-trend-in-prescription-drug-related-overdose-deaths-who-says-1.2823126?cmp=rss
 529635438529486848|Tue Nov 04 14:05:03 +0000 2014|No dedicated patients for nurse practitioners http://www.cbc.ca/news/canada/prince-edward-island/no-dedicated-patients-for-nurse-practitioners-1.2822861?cmp=rss
@@ -901,7 +901,7 @@
 526983684339937280|Tue Oct 28 06:27:55 +0000 2014|Sister Theresa Stickley awake during her livestreamed heart surgery http://www.cbc.ca/news/canada/british-columbia/sister-theresa-stickley-awake-during-her-livestreamed-heart-surgery-1.2815004?cmp=rss
 526830333011185664|Mon Oct 27 20:18:34 +0000 2014|RT @CBCAlerts: US Centers for Disease Control: High-risk people, including those exposed to #Ebola without protection, face ban from flight…
 526823550531801088|Mon Oct 27 19:51:37 +0000 2014|U.S. mandatory Ebola quarantines not ‘good science,’ Ontario health minister says http://www.cbc.ca/news/health/ebola-quarantine-of-health-workers-without-symptoms-a-disincentive-eric-hoskins-says-1.2814629?cmp=rss
-526812372280029186|Mon Oct 27 19:07:11 +0000 2014|Updated | Ebola quarantines in U.S.: Are they warranted? Nurse in N.J. being released from hospital today http://www.cbc.ca/1.2812730
+526812372280029186|Mon Oct 27 19:07:11 +0000 2014|Updated Ebola quarantines in U.S.: Are they warranted? Nurse in N.J. being released from hospital today http://www.cbc.ca/1.2812730
 526772794768379904|Mon Oct 27 16:29:55 +0000 2014|PSA test should be abandoned as screen for prostate cancer, task force says http://www.cbc.ca/news/health/psa-test-should-be-abandoned-as-screen-for-prostate-cancer-task-force-says-1.2814196?cmp=rss
 526756169797206018|Mon Oct 27 15:23:52 +0000 2014|Nova Scotia doctor to charge employers for sick notes http://www.cbc.ca/news/canada/nova-scotia/nova-scotia-doctor-to-charge-employers-for-sick-notes-1.2814139?cmp=rss
 526748897369022464|Mon Oct 27 14:54:58 +0000 2014|Enterovirus D68 confirmed in Fredericton child http://www.cbc.ca/news/canada/new-brunswick/enterovirus-d68-confirmed-in-fredericton-child-1.2814092?cmp=rss
@@ -911,7 +911,7 @@
 526161747347255297|Sun Oct 26 00:01:50 +0000 2014|RT @kimbrunhuber: Many fear the mandatory Ebola quarantine in 3 states will have a devastating impact on the effort to fight the virus, on …
 526123565838782465|Sat Oct 25 21:30:07 +0000 2014|Ebola quarantines in U.S.: are they warranted? http://ift.tt/1wwipmB
 526043236763058176|Sat Oct 25 16:10:55 +0000 2014|'No shortage of volunteers' for clinical trial of Canadian-made Ebola vaccine http://www.cbc.ca/news/health/ebola-vaccine-clinical-trials-in-u-s-full-of-volunteers-1.2813051?cmp=rss
-526030674348998656|Sat Oct 25 15:21:00 +0000 2014|Analysis | Ebola quarantines in U.S.: are they warranted? http://ift.tt/1wwipmB NY, NJ order 21-day mandatory quarantines
+526030674348998656|Sat Oct 25 15:21:00 +0000 2014|Analysis Ebola quarantines in U.S.: are they warranted? http://ift.tt/1wwipmB NY, NJ order 21-day mandatory quarantines
 525964736114880512|Sat Oct 25 10:58:59 +0000 2014|Ebola patient who died in Mali had contact with at least 300 others http://www.cbc.ca/news/world/ebola-patient-who-died-in-mali-had-contact-with-at-least-300-others-1.2812975?cmp=rss
 525752067265011712|Fri Oct 24 20:53:55 +0000 2014|Ebola patient in Mali dies: health official http://www.cbc.ca/news/world/ebola-patient-in-mali-dies-health-official-1.2812473?cmp=rss
 525698323160653825|Fri Oct 24 17:20:21 +0000 2014|Sedentary living is costing the economy, study says http://www.cbc.ca/news/business/sedentary-living-is-costing-the-economy-study-says-1.2811872?cmp=rss
@@ -1261,12 +1261,12 @@
 512590478710431744|Thu Sep 18 13:14:28 +0000 2014|RT @PDakinHealth: Top pediatric researchers call for more drug studies in children. Off-label prescribing risky for kids. http://t.co/EHCSJ…
 512565258360090624|Thu Sep 18 11:34:15 +0000 2014|Prescription drug trials for children a necessity, researchers say http://www.cbc.ca/news/health/prescription-drug-trials-for-children-a-necessity-researchers-say-1.2769563?cmp=rss
 512541082907725824|Thu Sep 18 09:58:11 +0000 2014|Cancer sends shockwaves far beyond the patient: Nikhil Joshi http://www.cbc.ca/news/health/cancer-sends-shockwaves-far-beyond-the-patient-nikhil-joshi-1.2769826?cmp=rss
-512394826009305088|Thu Sep 18 00:17:01 +0000 2014|Analysis | Why the U.S. is taking the lead on Ebola: "We have to act fast," Obama warns http://buff.ly/YSONWd http://buff.ly/YSONp0
+512394826009305088|Thu Sep 18 00:17:01 +0000 2014|Analysis Why the U.S. is taking the lead on Ebola: "We have to act fast," Obama warns http://buff.ly/YSONWd http://buff.ly/YSONp0
 512371007676362752|Wed Sep 17 22:42:22 +0000 2014|Enterovirus D68 sends 4 children to CHEO http://www.cbc.ca/news/canada/ottawa/enterovirus-d68-sends-4-children-to-cheo-1.2769300?cmp=rss
 512300750668828672|Wed Sep 17 18:03:11 +0000 2014|Artificial sweeteners linked to obesity epidemic, scientists say http://www.cbc.ca/news/health/artificial-sweeteners-linked-to-obesity-epidemic-scientists-say-1.2769196?cmp=rss
 512275221139582976|Wed Sep 17 16:21:44 +0000 2014|77% of Canadians enjoy 'flourishing' mental health http://www.cbc.ca/news/health/flourishing-mental-health-enjoyed-by-77-of-canadians-1.2769057?cmp=rss
 512275220464300032|Wed Sep 17 16:21:44 +0000 2014|Americans' expanding waistlines 'a concern' to obesity expert http://www.cbc.ca/news/health/americans-bellies-expanding-quickly-1.2769095?cmp=rss
-512273167885553664|Wed Sep 17 16:13:35 +0000 2014|Analysis | Ebola outbreak: Why the U.S. is taking the lead: "We have to act fast," Obama warns http://buff.ly/1yhwJUY http://buff.ly/1yhwJUZ
+512273167885553664|Wed Sep 17 16:13:35 +0000 2014|Analysis Ebola outbreak: Why the U.S. is taking the lead: "We have to act fast," Obama warns http://buff.ly/1yhwJUY http://buff.ly/1yhwJUZ
 512256112985636864|Wed Sep 17 15:05:49 +0000 2014|This is fascinating: What killed King Richard III? CT scans reveal gory details http://www.cbc.ca/news/technology/king-richard-iii-killed-by-two-blows-to-bare-head-forensics-show-1.2768936 http://pbs.twimg.com/media/BxvmOFiIQAASio0.jpg
 512248372518871042|Wed Sep 17 14:35:03 +0000 2014|King Richard III killed by two blows to bare head, forensics show http://www.cbc.ca/news/technology/king-richard-iii-killed-by-two-blows-to-bare-head-forensics-show-1.2768936?cmp=rss
 512240765796233216|Wed Sep 17 14:04:50 +0000 2014|Rob Ford health update coming 1 week after tumour discovery http://www.cbc.ca/news/canada/toronto/rob-ford-health-update-coming-1-week-after-tumour-discovery-1.2768498?cmp=rss
@@ -1290,7 +1290,7 @@
 511511024147898368|Mon Sep 15 13:45:06 +0000 2014|Enterovirus D-68 could be cause of surge of admissions at Ontario hospital http://www.cbc.ca/news/canada/windsor/enterovirus-d-68-could-be-cause-of-surge-of-admissions-at-ontario-hospital-1.2766312?cmp=rss
 511511023233167360|Mon Sep 15 13:45:06 +0000 2014|Breast implants in short supply in Venezuela http://www.cbc.ca/news/health/breast-implants-in-short-supply-in-venezuela-1.2766376?cmp=rss
 511447389836541952|Mon Sep 15 09:32:14 +0000 2014|Rona Ambrose says Canada needs better palliative care http://www.cbc.ca/news/politics/rona-ambrose-says-canada-needs-better-palliative-care-1.2764813?cmp=rss
-511447388938969089|Mon Sep 15 09:32:14 +0000 2014|Downsizing | Losing weight is hard, but it’s my only option http://www.cbc.ca/news/canada/newfoundland-labrador/downsizing-losing-weight-is-hard-but-it-s-my-only-option-1.2763235?cmp=rss
+511447388938969089|Mon Sep 15 09:32:14 +0000 2014|Downsizing Losing weight is hard, but it’s my only option http://www.cbc.ca/news/canada/newfoundland-labrador/downsizing-losing-weight-is-hard-but-it-s-my-only-option-1.2763235?cmp=rss
 511447388175601665|Mon Sep 15 09:32:14 +0000 2014|Rob Ford tumour diagnosis: Do politicians have a right to medical privacy? http://www.cbc.ca/news/politics/rob-ford-tumour-diagnosis-do-politicians-have-a-right-to-medical-privacy-1.2766148?cmp=rss
 511430455774957568|Mon Sep 15 08:24:57 +0000 2014|Ashya King case: British boy undergoes radiation treatment in Prague http://www.cbc.ca/news/world/ashya-king-case-british-boy-undergoes-radiation-treatment-in-prague-1.2766244?cmp=rss
 511178522744729602|Sun Sep 14 15:43:51 +0000 2014|Ebola claims 4th doctor in Sierra Leone after WHO rejects transport to Germany http://www.cbc.ca/news/health/ebola-claims-4th-doctor-in-sierra-leone-after-who-rejects-transport-to-germany-1.2765842?cmp=rss
@@ -1345,7 +1345,7 @@
 507906805934993408|Fri Sep 05 15:03:13 +0000 2014|Ebola crisis: WHO discusses experimental drugs http://www.cbc.ca/news/health/ebola-crisis-who-discusses-experimental-drugs-1.2756813?cmp=rss
 507906805167427584|Fri Sep 05 15:03:13 +0000 2014|Scientists urge government to fund basic research http://www.cbc.ca/news/technology/scientists-urge-government-to-fund-basic-research-1.2756038?cmp=rss
 507889528787329024|Fri Sep 05 13:54:34 +0000 2014|Hamilton school bans eggs, dairy in class for child with severe allergy http://www.cbc.ca/news/canada/hamilton/hamilton-school-bans-eggs-dairy-in-class-for-child-with-severe-allergy-1.2756015?cmp=rss
-507888692703551488|Fri Sep 05 13:51:15 +0000 2014|IN PHOTOS | Highlights from the first day of TIFF 2014 http://buff.ly/1pPWx6j via @CBCArts http://pbs.twimg.com/media/BwxiEwCIIAEHOsI.jpg
+507888692703551488|Fri Sep 05 13:51:15 +0000 2014|IN PHOTOS Highlights from the first day of TIFF 2014 http://buff.ly/1pPWx6j via @CBCArts http://pbs.twimg.com/media/BwxiEwCIIAEHOsI.jpg
 507878853000175616|Fri Sep 05 13:12:09 +0000 2014|Vancouver School Board pays $1.7M over student's heart attack http://www.cbc.ca/news/canada/british-columbia/vancouver-school-board-pays-1-7m-over-student-s-heart-attack-1.2756057?cmp=rss
 507818724154294272|Fri Sep 05 09:13:13 +0000 2014|HPV vaccine: Why boys are less likely to get it http://www.cbc.ca/news/health/hpv-vaccine-why-boys-are-less-likely-to-get-it-1.2756037?cmp=rss
 507818723344789504|Fri Sep 05 09:13:13 +0000 2014|Why Canada must approach Ebola outbreak like a natural disaster http://www.cbc.ca/news/canada/why-canada-must-approach-ebola-outbreak-like-a-natural-disaster-1.2754828?cmp=rss
@@ -1427,7 +1427,7 @@
 504626401442398209|Wed Aug 27 13:48:04 +0000 2014|WHO scientist infected with Ebola in Sierra Leone moved to Germany as Canadian colleagues pulled http://www.cbc.ca/news/health/ebola-infected-who-scientist-in-sierra-leone-goes-to-germany-canadians-pulled-1.2748090?cmp=rss
 504561937217110016|Wed Aug 27 09:31:54 +0000 2014|Slackers rejoice! Practice may not make perfect http://www.cbc.ca/news/world/the-10-000-hour-rule-revisited-why-practice-may-not-make-perfect-1.2747241?cmp=rss
 504455025452916736|Wed Aug 27 02:27:05 +0000 2014|Attention ANDROID users: We have a brand new CBC News app for you! Try it now and be amazed: https://play.google.com/store/apps/details?id=ca.cbc.mobile.android.cbcnewsandroidwebview&hl=en http://pbs.twimg.com/media/BwAvLDdIIAAqaAh.jpg
-504410996006748161|Tue Aug 26 23:32:07 +0000 2014|UPDATED | 3rd U.S. hostage held by ISIS is a 26-year-old aid worker http://buff.ly/1pepGYA http://pbs.twimg.com/media/BwAHINHIQAAKfQj.jpg
+504410996006748161|Tue Aug 26 23:32:07 +0000 2014|UPDATED 3rd U.S. hostage held by ISIS is a 26-year-old aid worker http://buff.ly/1pepGYA http://pbs.twimg.com/media/BwAHINHIQAAKfQj.jpg
 504370871666896896|Tue Aug 26 20:52:41 +0000 2014|Blood pressure self-medication better than doctors in study http://www.cbc.ca/news/health/blood-pressure-self-medication-better-than-doctors-in-study-1.2747569?cmp=rss
 504269077351657473|Tue Aug 26 14:08:11 +0000 2014|Ebola outbreak in West Africa has 'upper hand,' say U.S. health official warns http://www.cbc.ca/news/world/ebola-outbreak-in-west-africa-has-upper-hand-say-u-s-health-official-warns-1.2746945?cmp=rss
 504269076114329601|Tue Aug 26 14:08:11 +0000 2014|E-cigarettes should have stiff regulatory curbs, WHO urges http://www.cbc.ca/news/health/e-cigarettes-should-have-stiff-regulatory-curbs-who-urges-1.2747011?cmp=rss
@@ -1483,7 +1483,7 @@
 502094474999103488|Wed Aug 20 14:07:05 +0000 2014|Peanut and almond butters recalled over salmonella risk http://www.cbc.ca/news/canada/nova-scotia/maranatha-trader-joe-s-nut-butters-recalled-over-salmonella-risk-1.2741425?cmp=rss
 502089157716742144|Wed Aug 20 13:45:58 +0000 2014|RT @NightShiftMD: Is the CMA moving towards supporting assisted suicide?  Calling it a conscience issue is a start. http://bit.ly/1uW9oFK
 502036636390019072|Wed Aug 20 10:17:16 +0000 2014|Ebola crisis: Liberian security forces seal slum http://www.cbc.ca/news/health/ebola-crisis-liberian-security-forces-seal-slum-1.2741407?cmp=rss
-501864962059681792|Tue Aug 19 22:55:05 +0000 2014|ANALYSIS | Africans understandably wary about promised Ebola cures http://buff.ly/1pYhMjT http://buff.ly/1pYhJo1
+501864962059681792|Tue Aug 19 22:55:05 +0000 2014|ANALYSIS Africans understandably wary about promised Ebola cures http://buff.ly/1pYhMjT http://buff.ly/1pYhJo1
 501785417453432832|Tue Aug 19 17:39:00 +0000 2014|Ebola outbreak: Africa wary about promised cures http://buff.ly/1yW4Htn with A Thompson, @UofTPharmacy; J Lavery, @StMikesHospital &amp; @haw95
 501783985622482944|Tue Aug 19 17:33:19 +0000 2014|Drug used for dementia symptoms may carry kidney risks http://www.cbc.ca/news/health/drug-used-for-dementia-symptoms-may-carry-kidney-risks-1.2740720?cmp=rss
 501692864481357824|Tue Aug 19 11:31:14 +0000 2014|Ebola death toll reaches 1,229 http://www.cbc.ca/news/health/ebola-death-toll-reaches-1-229-1.2740304?cmp=rss
@@ -1707,7 +1707,7 @@
 486859572229832704|Wed Jul 09 13:09:02 +0000 2014|Teens texting while driving at an alarming rate http://www.cbc.ca/news/canada/toronto/texting-while-driving-common-among-ontario-teens-study-1.2700373?cmp=rss
 486859451316441088|Wed Jul 09 13:08:33 +0000 2014|How tiny Vermont is handling a huge heroin crisis http://www.cbc.ca/news/world/how-vermont-is-tackling-an-opioid-and-heroin-addiction-crisis-1.2700083?cmp=rss
 486604554533097472|Tue Jul 08 20:15:41 +0000 2014|RT @PDakinHealth: Over-hyped #Alzheimers blood test really only useful in research setting. http://www.bbc.com/news/health-28198510 A case of hype over true…
-486604101107462144|Tue Jul 08 20:13:53 +0000 2014|Canada’s nursing workforce continues to grow | CIHI http://bit.ly/U1SIwI
+486604101107462144|Tue Jul 08 20:13:53 +0000 2014|Canada’s nursing workforce continues to grow CIHI http://bit.ly/U1SIwI
 486579446342631424|Tue Jul 08 18:35:54 +0000 2014|Smallpox vials turn up in U.S. storage room unexpectedly http://www.cbc.ca/news/health/smallpox-vials-turn-up-in-u-s-storage-room-unexpectedly-1.2700164?cmp=rss
 486543538637660161|Tue Jul 08 16:13:13 +0000 2014|Hospital elevator buttons show more germs than toilet stall surfaces http://www.cbc.ca/news/health/hospital-elevator-buttons-show-more-germs-than-toilet-stall-surfaces-1.2699911?cmp=rss
 486543536213356544|Tue Jul 08 16:13:13 +0000 2014|Ebola virus spreads to 50 more in West Africa in a week http://www.cbc.ca/news/health/ebola-virus-spreads-to-50-more-in-west-africa-in-a-week-1.2699771?cmp=rss
@@ -2696,7 +2696,7 @@
 412688328886992896|Mon Dec 16 20:58:59 +0000 2013|Severed hand attached to ankle http://bit.ly/1kPKgaj
 412605923367333888|Mon Dec 16 15:31:32 +0000 2013|Antibacterial soap could pose health risks, FDA says http://bit.ly/1fylwmH
 412591977062887424|Mon Dec 16 14:36:07 +0000 2013|Retiring Halifax doctor struggles to sell family practice http://bit.ly/1fy9OZh
-412519765014364160|Mon Dec 16 09:49:10 +0000 2013|Dr. C | Want to go out sometime? By the way, I have cancer http://bit.ly/1dFuKM3
+412519765014364160|Mon Dec 16 09:49:10 +0000 2013|Dr. C Want to go out sometime? By the way, I have cancer http://bit.ly/1dFuKM3
 411614974721531904|Fri Dec 13 21:53:52 +0000 2013|Laughter's 8 benefits and 6 risks http://bit.ly/1kH8bsy
 411614973865885697|Fri Dec 13 21:53:51 +0000 2013|Shovel handle key to painless snow removal: researcher http://bit.ly/1kH8d3G
 411587161838731264|Fri Dec 13 20:03:20 +0000 2013|MDs say James Bond an impotent alcoholic unfit for 'defusing a nuclear bomb' http://bit.ly/1dxFGeG
@@ -2725,7 +2725,7 @@
 410059648394227712|Mon Dec 09 14:53:33 +0000 2013|Ontario mom urges schools to let asthmatic kids carry puffers http://bit.ly/J3JLOD
 410047072499273728|Mon Dec 09 14:03:35 +0000 2013|Medical mistake registry coming in Nova Scotia http://bit.ly/1ks49El
 410022847948419074|Mon Dec 09 12:27:19 +0000 2013|Mother with dementia 'warehoused,' daughter says http://bit.ly/1jCW7L6
-410008752096432128|Mon Dec 09 11:31:18 +0000 2013|Dr. C | I'm cheating on my cancer doctor http://bit.ly/1dgt5fH
+410008752096432128|Mon Dec 09 11:31:18 +0000 2013|Dr. C I'm cheating on my cancer doctor http://bit.ly/1dgt5fH
 409021912149291008|Fri Dec 06 18:09:57 +0000 2013|'Vanessa's Law' would let Ottawa pull dangerous drugs http://bit.ly/1kjNwKO
 409008422609121281|Fri Dec 06 17:16:21 +0000 2013|Sports, teens and booze go together, Mac study warns http://bit.ly/1d5vUA5
 408995760034693121|Fri Dec 06 16:26:02 +0000 2013|Extra vitamin D to prevent disease doubted in review http://bit.ly/1jukjPI
@@ -2997,7 +2997,7 @@
 387929740222296064|Wed Oct 09 13:17:12 +0000 2013|Burger recall expands nationally over E. coli concerns http://bit.ly/1cuN1OM
 387808855834382336|Wed Oct 09 05:16:51 +0000 2013|Tough anti-smoking regulations approved by EU lawmakers http://bit.ly/1ctGvIn
 387718148121567232|Tue Oct 08 23:16:24 +0000 2013|Zamboni MS vein theory debunked by study http://bit.ly/19gnwxF
-387685696367894528|Tue Oct 08 21:07:27 +0000 2013|Bryan Harris | Move more, live longer http://bit.ly/19ekAS7
+387685696367894528|Tue Oct 08 21:07:27 +0000 2013|Bryan Harris Move more, live longer http://bit.ly/19ekAS7
 387624661183238144|Tue Oct 08 17:04:55 +0000 2013|Malaria vaccine closer to drug licence application http://bit.ly/1b7YNuP
 387624660633792512|Tue Oct 08 17:04:55 +0000 2013|School bus for special needs students raises concerns http://bit.ly/1bUV5Wl
 387439687905705984|Tue Oct 08 04:49:54 +0000 2013|Weight-loss apps 'missing' key strategies http://bit.ly/1bSZQzJ
