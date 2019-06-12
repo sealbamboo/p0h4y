@@ -42,9 +42,10 @@ def model():
     models = session.query(Model).all()
     data = []
     for model in models:
+        local_technical = model.technical
         data.append({
                         'name':         model.name,
-                        'technical':    model.technical,
+                        'technical':    local_technical.split(),
                         'description':  model.description,
                         'location':     model.location,
                         'image':        model.image

@@ -16,9 +16,14 @@
     {% for model in model_row %}
     <div class="card col-md-4 offset-md-1 col-sm-12 pr-2" style="margin-right:10px;">
         <div class="card-body">
-            <h5 class="card-title">{{ model.name }}</h5>
+            <h3 class="card-title">{{ model.name }}</h3>
             <h6 class="card-subtitle mb-4 text-muted">{{ model.location }}</h6>
-            <h6 class="card-subtitle mb-4 text-muted">{{ model.technical }}</h6>
+            <div class="card-subtitle mb-4 text-muted">
+                {% for tech in model.technical %}
+                <span class="badge badge-pill badge-info">{{ tech }}</span>
+                <!-- End For-loop -->
+                {% endfor %}
+            </div>
             <p class="card-text">{{ model.description }}</p>
             <a href="#" class="card-link">View More</a>
         </div>
