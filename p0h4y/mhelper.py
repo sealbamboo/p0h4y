@@ -1,3 +1,4 @@
+import re
 import dill
 import numpy as np
 import pandas as pd
@@ -11,7 +12,7 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 # NLTK
 from nltk.stem import WordNetLemmatizer, SnowballStemmer
-from config import MODEL_GENSIM, VECTORIZER, DATAFRAME, DICTIONARY
+from config import MODEL_GENSIM, VECTORIZER, DATAFRAME, DICTIONARY, REGEX_URL
 stemmer = SnowballStemmer("english")
 
 # ------------------------------------------------------------------------------------------------------------------
@@ -96,3 +97,29 @@ def preprocess(text):
 # Lematize depedencies for gensim
 def lemmatize_stemming(text):
     return stemmer.stem(WordNetLemmatizer().lemmatize(text, pos='v'))
+
+
+# ------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------
+# Split Url out of content
+def get_url(sample):
+    result = re.search(REGEX_URL, sample)
+
+    if result:
+        return result[0]
+
+    return ''
+
+
+# ------------------------------------------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------------------------------------------
+# Split text out of content
+def split_txt_form_url(sample):  
+    url = get_url(sample)
+    if len(url):
+        result = sample.replace(url,'')
+        result.lstrip().rstrip()
+    else:
+        result = sample
+
+    return result

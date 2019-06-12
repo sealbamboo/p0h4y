@@ -1,10 +1,12 @@
 <!-- -- "Child Template" -->
 {% extends "base.html" %}
 
+
 <!-- Model Content -->
 {% block title %} {{ title }} {% endblock %}
 <!-- Head Content -->
 {% block head %} {{ super() }} {% endblock %}
+
 
 <!-- Child Content -->
 {% block content %}
@@ -12,7 +14,7 @@
 {% for model_row in data | batch(2, '&nbsp;') %}
 <div class="row">
     {% for model in model_row %}
-    <div class="card col-md-5 col-sm-12 pr-2" style="margin-right:10px;">
+    <div class="card col-md-4 offset-md-1 col-sm-12 pr-2" style="margin-right:10px;">
         <div class="card-body">
             <h5 class="card-title">{{ model.name }}</h5>
             <h6 class="card-subtitle mb-4 text-muted">{{ model.location }}</h6>

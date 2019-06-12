@@ -21,10 +21,10 @@
     <!-- Include Header -->
     {% include './components/header.html' %}
     <!-- Content goes here -->
-    <div class="container-fluid">
+    <div class="container-fluid" style="margin-bottom:2rem;">
         <div class="row">
             {% block body %}
-            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar" style="position: fixed;top:55px;">
                 <div class="sidebar-sticky">
                     {% include './components/left_bar.html' %}
                 </div>

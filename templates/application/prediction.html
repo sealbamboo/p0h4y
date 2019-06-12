@@ -19,11 +19,11 @@
     </div>
     <div class="col-md-5">
         {% for model in data %}
-            <h6>{{ model.name }}</h6>
-            <div class="progress mb-2" style="height: 20px;">
-                <div class="progress-bar" role="progressbar" style="width: {{ model.display }}" aria-valuenow="{{ model.score }}" aria-valuemin="0" aria-valuemax="100">{{ model.display }}</div>
-            </div>
-            <hr/>
+        <h6>{{ model.name }}</h6>
+        <div class="progress progress-bar-striped progress-bar-animated mb-2" style="height: 20px;">
+            <div class="progress-bar" role="progressbar" style="width: {{ model.display }}" aria-valuenow="{{ model.score }}" aria-valuemin="0" aria-valuemax="100">{{ model.display }}</div>
+        </div>
+        <hr/>
         <!-- End For-loop model_row-->
         {% endfor %}
     </div>

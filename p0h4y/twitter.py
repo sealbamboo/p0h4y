@@ -126,6 +126,32 @@ class TweetAnalyzer():
         return df
 
 
+    def tweets_basic(self, tweets):
+        result = []
+
+        for tweet in tweets:
+            result.append({
+                            'tweetid'    : tweet.id,
+                            'date'  : tweet.created_at,
+                            'tweetcontent': tweet.text
+                            })        
+
+        return result
+
+
+def get_dataset(tweet_name):
+
+    twitter_client = TwitterClient()
+    tweet_analyzer = TweetAnalyzer()
+    api = twitter_client.get_twitter_client_api()
+
+    tweets = api.user_timeline(screen_name=tweet_name)
+
+    # Create dataframe contain return tweets
+    frame = tweet_analyzer.tweets_basic(tweets)
+
+    return frame
+
     
 if __name__ == "__main__":
 
