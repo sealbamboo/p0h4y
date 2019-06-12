@@ -76,6 +76,7 @@ class Topic(Base):
     __tablename__= 'topics'
     id          = Column(Integer, primary_key=True)
     topicid     = Column('topicid', Integer)
+    description = Column('description', String)
     name        = Column('name', String)
     model       = Column('model', String)
 
@@ -86,6 +87,9 @@ class Topic(Base):
     
     def get_topicid(self):
         return self.topicid
+    
+    def get_description(self):
+        return self.description
 
     def get_name(self):
         return self.name

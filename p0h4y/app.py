@@ -64,13 +64,16 @@ def prediction():
         # Data preprocessing step for the unseen document
         # --------------------------------------------------------------------------
         bow_vector = h_g_dictionary.doc2bow(preprocess(textContent))
-        prob_topic = {}
-        ATLEAST = 0
+        prob_topic = []
+
+
         for index, score in sorted(h_g_predictor[bow_vector], key=lambda tup: -1*tup[1]):
-            if ATLEAST < 3:
-                prob_topic.update({score:h_g_predictor.print_topic(index, 5)})
+            prob_topic.append({'score': score, 
+                                # 'topic':h_g_spredictor.print_topic(index, 5),
+                                'topicid': index
+                                })
             # print("Score: {}\t Topic: {}".format(score, h_g_predictor.print_topic(index, 5)))
-            ATLEAST += 1
+            # ATLEAST += 1
         print(prob_topic)
 
         item = pd.DataFrame([[textContent]], columns=['text'])
@@ -84,13 +87,24 @@ def prediction():
         #     dictionary_topic.update({idx+1: topic})
             # print("Topic: {} \nWords: {} \n".format(idx, topic ))
         
+        # Get Topic Name accordingly to database map.
+        for key, value in enumerate(prob_topic):
+            print("===================================")
+            print(dictionary_topic[key].get_name())
+            print("\n")
+            value['score'] = int(round(value['score'],2)*100)
+            value['name'] = dictionary_topic[key].get_name()
+            value['display'] = str(int(value['score'])) + '%'
+        print("AGAIN: ")
+        print(prob_topic)
+        data = prob_topic
 
     else:
-        survive = 0
-        dead = 0
+        data = []
 
     return render_template('./application/prediction.html',
-                            title= app_name + ' Predictions')
+                            title= app_name + ' Predictions',
+                            data = data)
 
 @app.errorhandler(404)
 def page_not_found(e):
