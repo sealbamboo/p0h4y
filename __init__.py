@@ -1,7 +1,5 @@
 from flask import Flask, render_template
-from p0h4y.app import app
-from p0h4y.porfolio import porfolio
-from p0h4y.sign import sign
+from .components import app, porfolio, sign
 
 # Init server
 server = Flask(__name__)
