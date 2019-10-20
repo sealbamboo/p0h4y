@@ -19,4 +19,4 @@ server.register_blueprint(sign, url_prefix='/sign')
 # Run Server
 if __name__ == '__main__':
     # Run Debug mode without using env
-    server.run(debug=True)
+    server.run(debug=True, port=8081, host='0.0.0.0')
