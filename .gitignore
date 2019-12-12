@@ -15,5 +15,7 @@ ipynb/models/
 ipynb/final/
 
 .gitignore
+caps_env.yml
 models.zip
 final.zip
+front/

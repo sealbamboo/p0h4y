@@ -12,7 +12,7 @@ from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 # NLTK
 from nltk.stem import WordNetLemmatizer, SnowballStemmer
-from config import MODEL_GENSIM, VECTORIZER, DATAFRAME, DICTIONARY, REGEX_URL
+from .config import MODEL_GENSIM, VECTORIZER, DATAFRAME, DICTIONARY, REGEX_URL
 stemmer = SnowballStemmer("english")
 
 # ------------------------------------------------------------------------------------------------------------------
